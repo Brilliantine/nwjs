@@ -1,0 +1,1 @@
+docker run nwjs npx nightwatch
