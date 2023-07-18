@@ -11,7 +11,7 @@ module.exports = {
     browser.end();
   },
 
-  'Search for word': function (browser) {
+  'Search for word 1': function (browser) {
     let word = browser.globals.searchText;
 
     browser.assert.notEmpty('#mp-welcome')
